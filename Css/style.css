@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 body {
-    background-color: white;
-    font-family: Arial, sans-serif;
+    background-color: var(--color-background);
+    font-family: var(--font-primary);
     margin: 0;
 }
 header {
-    background-color: #c7c7c7;
+    background-color: var(--color-primary);
     width: 100%;
     min-height: 220px;
     padding: 25px 5%;
@@ -42,7 +42,7 @@ header input {
     width: 100%;
     height: 50px;
     padding: 0 20px;
-    background-color: white;
+    background-color: var(--color-background);
     border: none;
     border-radius: 20px;
     font-size: 16px;
@@ -56,12 +56,12 @@ header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #a7a7a7;
+    background-color: var(--color-secondary);
     border-radius: 20px;
 }
 nav a {
     text-decoration: none;
-    color: white;
+    color: var(--color-text-light);
     font-size: 18px;
     font-weight: bold;
     transition: 0.2s;
@@ -85,7 +85,7 @@ main.pokedex {
     width: 100%;
     min-width: 0;
     padding: 15px;
-    background-color: #c7c7c7;
+    background-color: var(--color-primary);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -104,12 +104,12 @@ main.pokedex {
 .pokemon-header h2 {
     margin: 0;
     font-size: 25px;
-    color: #333;
+    color: var(--color-text);
 }
 .pokemon-number {
     font-size: 16px;
     font-weight: bold;
-    color: #666;
+    color: var(--color-text-light);
 }
 .pokemon-artwork {
     width: 100%;
@@ -117,7 +117,7 @@ main.pokedex {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: var(--color-background);
     border-radius: 18px;
     overflow: hidden;
 }
@@ -134,7 +134,7 @@ main.pokedex {
 .info-label {
     font-size: 15px;
     font-weight: bold;
-    color: #555;
+    color: var(--color-text-light);
 }
 .pokemon-types {
     display: flex;

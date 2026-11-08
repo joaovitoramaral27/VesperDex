@@ -3,7 +3,7 @@ addEventListener('DOMContentLoaded', () => {
     pokemonCards.forEach(card => {
         card.addEventListener('click', () => {
             const pokemonId = card.id;
-            window.location.href = `Pages/${pokemonId}.html`;
+            window.location.href = `Pages/Pokémons/${pokemonId}.html`;
         });
     });
 });

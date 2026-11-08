@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #c7c7c7;
+    --color-secondary: #a7a7a7;
+    --color-background: #ffffff;
+    --color-surface: #f5f5f5;
+    --color-text: #333333;
+    --color-text-light: #666666;
+    --color-text-light: #ffffff;
+    --font-primary: Arial, sans-serif;
+    --font-size-small: 14px;
+    --font-size-normal: 16px;
+    --font-size-large: 25px;
+    --font-size-title: 45px;
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+    --spacing-xl: 40px;
+    --radius-small: 10px;
+    --radius-medium: 20px;
+    --radius-large: 40px;
+    --shadow-card: 0 8px 18px rgba(0, 0, 0, 0.15);
+    --transition-default: 0.2s ease;
+}

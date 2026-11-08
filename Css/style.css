@@ -101,6 +101,9 @@ main section img {
     background-color: white;
     border-radius: 20px;
 }
+.types{
+    background-color: none;
+}
 main section h1 {
     font-size: 32px;
 }

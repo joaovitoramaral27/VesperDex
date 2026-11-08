@@ -66,6 +66,9 @@ nav a {
     font-weight: bold;
     transition: 0.2s;
 }
+nav a:hover {
+    text-decoration: underline;
+}
 main.pokedex {
     width: 100%;
     max-width: 1800px;
@@ -87,6 +90,9 @@ main.pokedex {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+.pokemon-card:hover {
+    transform:translateY(-5px)
 }
 .pokemon-header {
     width: 100%;
